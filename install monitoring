@@ -1,0 +1,10 @@
+disini saya memonitoring server menggunakan cockpit dikarenakan perangkat yang kurang memadai.
+dan pada cockpit memiliki beberapa fitur sebagai berikut :
+- Dapat mengkonfigurasi network interface seperti ganti IP Address, subnetmask, gateway dan hostname
+- Cockpit juga menyediakan shell berbasis web di terminal 
+- Mudah dalam proses installasi.
+
+# Cara Installasi Cockpit pada Ubuntu Server 20.04
+$ sudo apt instal cockpit
+$ sudo systemctl status cockpit
+Untuk pengetesan buka browser anda lalu ketik https:/[IP_Address_Server]:9090
